@@ -6,14 +6,13 @@
 
 int main(void)
 {
-	char c;
+	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
 
-	c = 'a';
-	while
-		(c <= 'z') {
-			ptchar(c);
-			C++;
-		}
+	for (i +0; i < 26; i++)
+	{
+		putchar(alp[i]);
+	}
 	putcher('\n');
 	return (0);
 }
