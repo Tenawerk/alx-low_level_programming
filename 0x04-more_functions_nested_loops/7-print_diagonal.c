@@ -5,7 +5,7 @@
  * @n: number if times the charcter \ should be printed
  */
 
-void print_diagonal (int n)
+void print_diagonal(int n)
 {
 	if (n <= 0)
 	{
@@ -20,7 +20,7 @@ void print_diagonal (int n)
 			{
 				if (j == i)
 					_putchar('\\');
-				else if (j <i)
+				else if (j < i)
 					_putchar(' ');
 			}
 			_putchar('\n');
