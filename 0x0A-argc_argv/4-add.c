@@ -35,7 +35,7 @@ int main(int argc, char *argv[])
 			e++;
 		}
 
-		printd("%d\n", sum);
+		printf("%d\n", sum);
 	}
 	else
 	{
