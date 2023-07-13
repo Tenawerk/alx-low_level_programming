@@ -1,7 +1,8 @@
 #include <stdlib.h>
 
 /**
- * free_grig - ...
+ * free_grig - frees a 2 dimensional grid previously 
+ * created by your alloc_grid function
  * @grid: ...
  * @height: ...
  *
